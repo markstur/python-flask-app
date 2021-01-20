@@ -1,13 +1,21 @@
 [[source]]
-name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+prometheus-client = "*"
+twilio = "*"
+python-dotenv = "*"
+ibm-watson = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+ibm-db = "*"
+sqlalchemy = "*"
+ibm-db-sa = "*"
 
 [dev-packages]
 
-[packages]
-gunicorn = "==19.7.1"
-ibmcloudenv = "*"
-livereload = "*"
-flask = ">=1.0.0"
-prometheus_client = "*"
+[requires]
+python_version = "3.8"
