@@ -72,7 +72,7 @@ There are also a few utility commands:
 * `build`: compiles `.py` files within the project directory into `.pyc` files
 * `test`: runs all unit tests inside of the project's `test` directory
 
-Your application is running at: `http://localhost:3000/` in your browser.
+Your application is running at: `http://localhost:8080/` in your browser.
 - Your [Swagger UI](http://swagger.io/swagger-ui/) is running on: `/explorer`
 - Your Swagger definition is running on: `/swagger/api`
 - Health endpoint: `/health`
